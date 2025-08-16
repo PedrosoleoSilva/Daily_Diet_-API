@@ -1,6 +1,6 @@
 from datetime import datetime
 class Diet:
-    def __init__(self, id, nome, descricao, data_hora):
+    def __init__(self, id, nome, descricao):
         self.id = id
         self.nome = nome
         self.descricao = descricao
